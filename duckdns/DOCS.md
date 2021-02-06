@@ -120,6 +120,7 @@ The number of seconds to wait before updating DuckDNS subdomains and renewing Le
 - At time of writing, Duck DNS' own IPv6 autodetection
   [does not actually work][duckdns-faq], but you can use the URL option
   for `ipv6` to get around this, read on.
+- In order to use an alias domain on your Let's Encrypt certificate, you'll have to prove you own the domain either by adding a file to your web site or a TXT record to your DNS information. Instructions can be found [here][letsencryptacme].
 
 ## Support
 
@@ -140,3 +141,4 @@ In case you've found a bug, please [open an issue on our GitHub][issue].
 [duckdns]: https://duckdns.org
 [duckdns-faq]: https://www.duckdns.org/faqs.jsp
 [HTTP]: https://www.home-assistant.io/integrations/http/
+[letsencryptacme]: https://letsencrypt.org/docs/challenge-types/
